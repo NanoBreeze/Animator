@@ -1,0 +1,10 @@
+Pxl-Change(A,B
+Pxl-Change(A-M,B
+Pxl-Change(A+M,B
+Pxl-Change(A,B-M
+Pxl-Change(A-M,B-M
+Pxl-Change(A+M,B-M
+Pxl-Change(A,B+M
+Pxl-Change(A-M,B+M
+Pxl-Change(A+M,B+M
+Return

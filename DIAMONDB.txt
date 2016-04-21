@@ -1,0 +1,28 @@
+ClrDraw:AxesOff
+While 1
+31->A:47->B:1->M
+prgmDOT
+31->T:47->U
+31->L:47->N
+31->D:47->E
+31->R:47->S
+For(C,1,9,2
+For(X,0,C
+If X=0:Then
+T-6->T:47->U
+T->A:U->B:prgmDOT
+31->L:N-6->N
+L->A:N->B:prgmDOT
+D+6->D:47->E
+D->A:E->B:prgmDOT
+31->R:S+6->S
+R->A:S->B:prgmDOT
+Else
+T+3X->A:U-3X->B:prgmDOT
+L+3X->A:N+3X->B:prgmDOT
+D-3X->A:E+3X->B:prgmDOT
+R-3X->A:S-3X->B:prgmDOT
+End
+End
+End
+End

@@ -1,0 +1,41 @@
+ClrDraw:AxesOff
+31->A:47->B:1->M
+While 1
+prgmDOT
+1->C
+Repeat C>19
+For(X,1,C
+A-3->A:prgmDOT
+End
+For(X,1,C+1
+B+3->B:prgmDOT
+End
+For(X,1,C+2
+A+3->A:prgmDOT
+End
+For(X,1,C+3
+B-3->B:prgmDOT
+End
+C+4->C
+End
+For(X,1,20
+A-3->A:prgmDOT
+End
+B+63->B:20->C
+Repeat C<1
+For(X,1,C
+B-3->B:prgmDOT
+End
+For(X,1,C-1
+A+3->A:prgmDOT
+End
+For(X,1,C-2
+B+3->B:prgmDOT
+End
+For(X,1,C-3
+A-3->A:prgmDOT
+End
+C-4->C
+End
+31->A:47->B
+End

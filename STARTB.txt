@@ -1,0 +1,9 @@
+Menu("ANIMATOR","SPIRAL",S,"HORIZ",H,"DIAMOND",D,"NIHAO",N
+Lbl S
+prgmSPIRALB
+Lbl H
+prgmHORB
+Lbl D
+prgmDIAMONDB
+Lbl N
+prgmNIHAOB
